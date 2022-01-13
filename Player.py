@@ -1,4 +1,4 @@
 class Player:
-  def __init__(self, n, gamePiece):
-    self.name = n
-    self.symbol = gamePiece
+  def __init__(self, name, symbol):
+    self.name = name
+    self.symbol = symbol
